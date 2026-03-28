@@ -13,6 +13,12 @@ Mid-technical developers and institutions. They understand blockchain basics and
 - The crypto ecosystem has been building privacy with cypherpunk values, not institutional/practical requirements
 - It's not institutions getting it wrong -- it's crypto builders ignoring what institutions actually need
 
+## Process
+- Commit after every change
+- Outline lives in `talk_outline.md`
+- Research sources in `research/`
+- Distilled summary in `research/DISTILLED.md`
+
 ## Workflow
 1. Develop outline collaboratively
 2. Iterate and deepen each section

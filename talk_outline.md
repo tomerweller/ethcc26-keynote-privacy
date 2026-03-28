@@ -6,6 +6,18 @@
 
 ---
 
+## Why Privacy? (~2 min)
+
+Blockchain is the only financial system where every transaction is visible to everyone. Your paycheck is private. Your bank balance is private. Your supplier payments are private. But the moment any of that moves on-chain, it's public.
+
+For individuals, this means anyone with a block explorer can reconstruct your financial life. For institutions, it's worse -- deposit volumes, counterparty relationships, trading strategies, payroll. This isn't abstract. This is competitive intelligence, exposed to every competitor, in real time.
+
+"Unless you can protect my information, I can't do anything on the blockchain." That's not a cypherpunk talking. That's a bank.
+
+Privacy on blockchain isn't a feature request. It's a prerequisite for the next phase of adoption.
+
+---
+
 ## The Privacy Mistake (~3 min)
 
 The crypto ecosystem built privacy with cypherpunk values -- the goal was to hide everything from everyone. Mixers, shielded chains, fully private L1s. The ideology: transparency is the enemy, privacy is absolute.

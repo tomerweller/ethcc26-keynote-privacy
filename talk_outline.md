@@ -6,7 +6,7 @@
 
 ---
 
-## The Mistake (~3 min)
+## The Privacy Mistake (~3 min)
 
 The crypto ecosystem built privacy with cypherpunk values -- the goal was to hide everything from everyone. Mixers, shielded chains, fully private L1s. The ideology: transparency is the enemy, privacy is absolute.
 
@@ -18,7 +18,7 @@ We built privacy tools for an audience that doesn't include the people holding t
 
 ---
 
-## The Real Problem (~3 min)
+## Privacy is a Spectrum (~3 min)
 
 Privacy is not binary. It's a spectrum with an enormous number of permutations:
 
@@ -32,7 +32,7 @@ The real problem is that we've been treating privacy as a single feature when it
 
 ---
 
-## Failure Modes (~3 min)
+## Privacy Dead Ends (~3 min)
 
 When you ignore the spectrum, you end up in one of two failure modes:
 
@@ -46,7 +46,7 @@ The other extreme: institutions give up on public chains entirely and retreat to
 
 ---
 
-## Solution: Clear Separation (~3 min)
+## Transparency First (~3 min)
 
 The answer is a clear architectural separation:
 
@@ -61,7 +61,7 @@ Stellar's X-Ray upgrade is an example of this approach -- adding ZK primitives (
 
 ---
 
-## The Two Flavors of Payments (~3 min)
+## Private Payments (~3 min)
 
 Privacy on payments isn't monolithic either. There are two distinct families of protocols:
 
@@ -83,7 +83,7 @@ These aren't competing approaches. They're different tools for different points 
 
 ---
 
-## The Compliance* Menu (~3 min)
+## Privacy Compliance* Menu (~3 min)
 
 *The asterisk is deliberate. Regulators haven't defined what compliance looks like for on-chain privacy yet. These are the administrative controls we believe are necessary -- an approximation built proactively, before the rules are written.*
 
@@ -103,7 +103,7 @@ The tools available to tune privacy to compliance requirements:
 
 ---
 
-## Summary (~2 min)
+## Privacy That Doesn't Break the Chain (~2 min)
 
 1. **The mistake:** We built privacy for cypherpunks, not for the real world.
 2. **The real problem:** Privacy is a spectrum -- jurisdictions, use cases, and technology all vary.

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx @marp-team/marp-cli --watch slides.md",
     "build": "npx @marp-team/marp-cli slides.md --html --output slides.html",
-    "pdf": "npx @marp-team/marp-cli slides.md --pdf --output slides.pdf"
+    "pdf": "npx @marp-team/marp-cli slides.md --pdf --output slides.pdf",
+    "pptx": "npx @marp-team/marp-cli slides.md --pptx --output slides.pptx"
   },
   "keywords": [],
   "author": "",

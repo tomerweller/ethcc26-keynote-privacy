@@ -15,7 +15,7 @@ Mid-technical developers and institutions. They understand blockchain basics and
 
 ## Process
 - Commit after every change
-- Outline lives in `talk_outline.md`
+- Outline lives in `OUTLINE.md`
 - Research sources in `research/`
 - Distilled summary in `research/DISTILLED.md`
 

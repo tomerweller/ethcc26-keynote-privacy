@@ -6,6 +6,12 @@
 
 ---
 
+## Intro (~0.5 min)
+
+Hi, I'm Tomer Weller, CPO at the Stellar Development Foundation. I've been in crypto for almost 9 years and for the last couple of years, privacy has been my main focus. This talk is about what we've learned in discussions with institutions about privacy.
+
+---
+
 ## Why Privacy? (~1.5 min)
 
 If you're in this room you're probably already sold on privacy. But just to level set:

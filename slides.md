@@ -5,32 +5,103 @@ paginate: false
 backgroundColor: #0F0F0F
 color: #F6F7F8
 style: |
-  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Inter:wght@400;500;600&display=swap');
-  section {
-    font-family: 'Inter', sans-serif;
-    padding: 80px 120px;
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+
+  :root {
+    --stellar-yellow: #FDDA24;
+    --stellar-black: #0F0F0F;
+    --stellar-offwhite: #F6F7F8;
+    --stellar-warmgray: #D6D2C4;
+    --stellar-lavender: #B7ACE8;
+    --stellar-teal: #00A7B5;
+    --stellar-navy: #002E5D;
   }
+
+  section {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    padding: 80px 100px;
+    background-color: var(--stellar-black);
+    justify-content: center;
+  }
+
   h1 {
     font-family: 'Lora', serif;
-    color: #F6F7F8;
-    font-size: 2.8em;
+    color: var(--stellar-offwhite);
+    font-size: 2.6em;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.15;
+    margin-bottom: 0.3em;
   }
+
   h2 {
     font-family: 'Inter', sans-serif;
-    color: #D6D2C4;
-    font-size: 1.3em;
+    color: var(--stellar-warmgray);
+    font-size: 1.2em;
     font-weight: 400;
+    margin-top: 0;
+  }
+
+  p, li {
+    font-family: 'Inter', sans-serif;
+    color: var(--stellar-warmgray);
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+
+  strong {
+    color: var(--stellar-yellow);
+    font-weight: 600;
+  }
+
+  em {
+    color: var(--stellar-lavender);
+    font-style: normal;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--stellar-yellow);
+    padding-left: 1.2em;
+    margin-left: 0;
+    color: var(--stellar-warmgray);
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.1em;
+  }
+
+  a {
+    color: var(--stellar-teal);
+  }
+
+  section.title {
+    text-align: left;
+  }
+
+  section.title h1 {
+    font-size: 3em;
+  }
+
+  section.title h2 {
+    color: var(--stellar-warmgray);
+    font-size: 1.1em;
+    margin-top: 0.5em;
+  }
+
+  footer {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.55em;
+    color: var(--stellar-warmgray);
+    opacity: 0.5;
   }
 ---
+
+<!-- _class: title -->
 
 # Privacy That Doesn't Break the Chain
 
 ## Tomer Weller · EthCC
 
 <!--
-Introduce yourself. CPO at Stellar Development Foundation. This talk is about why the crypto ecosystem has been building privacy wrong, and what it looks like to get it right -- especially for institutions.
+Hi, I'm Tomer Weller, CPO at the Stellar Development Foundation. I've been in crypto for almost 9 years and for the last couple of years, privacy has been my main focus. This talk is about what we've learned in discussions with institutions about privacy.
 -->
 
 ---
@@ -150,6 +221,8 @@ Transition: These are dials, not switches. Different combinations serve differen
 -->
 
 ---
+
+<!-- _class: title -->
 
 # Privacy That Doesn't Break the Chain
 

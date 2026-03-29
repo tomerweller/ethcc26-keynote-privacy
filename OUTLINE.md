@@ -16,7 +16,7 @@ For individuals, this means anyone with a block explorer can reconstruct your fi
 
 When we talk to financial institutions, they make it clear: not having a way to manage visibility is a non-starter.
 
-Transition: Easy -- we've been working on privacy for 10 years, no? Not exactly.
+**Transition**: Easy -- we've been working on privacy for 10 years, no? Not exactly.
 
 ---
 
@@ -28,7 +28,7 @@ And that's awesome. But for the next wave of adoption we need institutions -- we
 
 For these institutions privacy means something different -- it means managing visibility in a way that allows them to stay competitive but also in compliance.
 
-Transition: The mistake is that we've built absolute privacy. But what institutions are telling us is that privacy is a spectrum.
+**Transition**: The mistake is that we've built absolute privacy. But what institutions are telling us is that privacy is a spectrum.
 
 ---
 
@@ -36,24 +36,24 @@ Transition: The mistake is that we've built absolute privacy. But what instituti
 
 Privacy is not binary. It's a spectrum with an enormous number of permutations:
 
-- **Jurisdictions vary.** What's required in the EU is different from the US, Singapore, or Brazil. There is no single compliance framework. Concrete example: the same €900 USDC transfer from a VASP to a personal wallet requires zero identity data in the US (Travel Rule kicks in at $3,000+), but full originator/beneficiary identity disclosure in the EU (Travel Rule applies to any amount since December 2024). A single global smart contract can't serve both with the same logic.
-- **Use cases vary.** Payroll needs different privacy than trading, which needs different privacy than lending, which needs different privacy than remittances.
+- **Jurisdictions vary.** A regulated asset issued in the US adheres to a completely different regulatory regime than a similar one issued in Germany.
+- **Use cases vary.** Payroll needs different privacy than trading, which needs different privacy than remittances.
 - **Technology varies.** ZK proofs, FHE, MPC, TEEs -- each has different tradeoffs in performance, trust assumptions, and what they can actually hide.
 
 The real problem is that we've been treating privacy as a single feature when it's actually a multi-dimensional design space. Any solution that doesn't acknowledge this complexity is going to fail for real-world adoption.
 
-**Key point:** There is no one-size-fits-all privacy. We need to design for the spectrum.
+**Transition:** This problem has led to us developing what I call "Privacy Dead Ends"
 
 ---
 
 ## Privacy Dead Ends (~3 min)
 
-When you ignore the spectrum, you end up in one of two failure modes:
+When you ignore the privacy spectrum, you end up in one of two failure modes: 
 
 ### All-or-Nothing Privacy
 Fully shielded chains and total opacity. You get privacy but you lose composability, auditability, and the shared infrastructure that makes blockchain valuable. You also can't comply with any regulatory framework. The transparent ledger -- the thing that makes blockchain trustworthy -- is gone.
 
-### Revert to Database
+### The Permissioned Database
 The other extreme: institutions give up on public chains entirely and retreat to permissioned databases or private ledgers. You get privacy and compliance, but you lose everything blockchain offers -- neutrality, composability, shared settlement, open access. You're back to the old system with extra steps.
 
 **Key point:** Both extremes fail. All-or-nothing breaks the chain. Reverting to a database abandons it.

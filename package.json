@@ -1,0 +1,26 @@
+{
+  "name": "ethcc-privacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @marp-team/marp-cli --watch --no-stdin slides.md",
+    "build": "npx @marp-team/marp-cli --no-stdin slides.md --html --output slides.html",
+    "pptx": "npx @marp-team/marp-cli --no-stdin slides.md --pptx --output slides.pptx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomerweller/ethcc26-keynote-privacy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tomerweller/ethcc26-keynote-privacy/issues"
+  },
+  "homepage": "https://github.com/tomerweller/ethcc26-keynote-privacy#readme",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.3.1"
+  }
+}

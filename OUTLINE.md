@@ -48,15 +48,15 @@ The real problem is that we've been treating privacy as a single feature when it
 
 ## Privacy Dead Ends (~3 min)
 
-When you ignore the privacy spectrum, you end up in one of two failure modes: 
+When we started looking at privacy for Stellar, we realized that most privacy solutions end up in one of two failure modes, or "dead ends". 
 
-### All-or-Nothing Privacy
-Fully shielded chains and total opacity. You get privacy but you lose composability, auditability, and the shared infrastructure that makes blockchain valuable. You also can't comply with any regulatory framework. The transparent ledger -- the thing that makes blockchain trustworthy -- is gone.
+### All-or-Nothing
+Privacy solutions that have two modes: full transparency or full privacy, nothing in between. This can take the shape of a smart contract pool, an L2 or an appchain - but the premise is the same. Unfortunately, this doesn't leave room for regulated financial institutions to engage with.
 
-### The Permissioned Database
-The other extreme: institutions give up on public chains entirely and retreat to permissioned databases or private ledgers. You get privacy and compliance, but you lose everything blockchain offers -- neutrality, composability, shared settlement, open access. You're back to the old system with extra steps.
+### Permissioned Chains
+I've been in crypto almost 9 years and it's very depressing - as soon as you think that the concept of permissioned chains is dead, they come back to life. Recently they've come back to life on the pretense of being private. Of course they're private - they're a fucking database on your computer, bro. Just to be clear: institutions are looking for open-participation networks - they see the value of interoperability, composability and verifiability. Permissioned chains are a dead end.
 
-**Key point:** Both extremes fail. All-or-nothing breaks the chain. Reverting to a database abandons it.
+**Key point:** So how do you avoid these privacy dead-ends? 
 
 ---
 

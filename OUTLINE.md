@@ -117,11 +117,14 @@ At Stellar, we've been working with various builders in the space to define a co
 
 ## Privacy That Doesn't Break the Chain (~2 min)
 
-1. **The mistake:** We built privacy for cypherpunks, not for the real world.
-2. **The real problem:** Privacy is a spectrum -- jurisdictions, use cases, and technology all vary.
-3. **The failure modes:** All-or-nothing breaks the chain. Reverting to databases abandons it.
-4. **The solution:** Separate the open base layer from opt-in, configurable privacy on top.
-5. **The tools:** Confidential tokens for confidentiality. Privacy pools for anonymity. A compliance menu to tune both.
-6. **The future:** Privacy that works with the chain, not against it. Open by default, private when needed.
+So to wrap up:
 
-Regulators haven't written the rules yet. But we can build the toolkit now -- so that when they do, we're ready.
+We've been building privacy with cypherpunk values and that's great -- but it's not enough. Institutions need privacy too, and for them it's not about hiding from the world. It's about managing visibility.
+
+Privacy is a spectrum. Different jurisdictions, different use cases, different tech. There's no single answer and that's okay -- that's actually the point.
+
+The approach is transparency first -- keep the base layer open, build configurable privacy on top. Confidential tokens, privacy pools, a compliance menu of administrative controls. Dials, not switches.
+
+The regulators haven't written the rules yet. But we don't need to wait. We can build the toolkit now -- so that when they do, we're ready.
+
+This is privacy that doesn't break the chain.

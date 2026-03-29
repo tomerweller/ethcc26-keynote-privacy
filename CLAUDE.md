@@ -18,7 +18,7 @@ Mid-technical developers and institutions. They understand blockchain basics and
 - Research sources in `research/`
 - Distilled summary in `research/DISTILLED.md`
 - Brand guidelines summary in `style/BRAND_SUMMARY.md`
-- Slide deck in `slides.md` (Marp format)
+- Slide deck: `index.html` (reveal.js) and `slides.pptx` (python-pptx via `build_pptx.py`)
 
 ## Workflow
 1. Develop outline collaboratively

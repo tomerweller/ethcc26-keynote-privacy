@@ -66,11 +66,11 @@ The answer is simple: a clear architectural separation.
 
 - **An open, transparent base layer** a maximally auditable source of truth. This is the default - this is the primary issuance platform. Anyone can verify - interoperability is trivial.
 
-- **Privacy protocols built on top.** different protocols for different requirements, configurable and opt-in.   
+- **Privacy protocols built on top.** different privacy guarantees, different administrative controls, different underlying tech.
 
 Why transparency first? This might come as a surprise given that this is a talk about privacy but transparency is a core value proposition of blockchains. The fact that an executive at an asset manager company can go on a block explorer and see the total supply of an asset and its distribution - that is a feature - not a bug - they love that shit. 
 
-With that said, the base layer should provide a rich set of building blocks for privacy. Stellar's X-Ray upgrade is an example of this approach -- adding ZK primitives (BN254, Poseidon) at the protocol level so that application developers can build configurable privacy without compromising the transparency of the base chain.
+With that said, our base layers should provide a rich set of building blocks for privacy. Stellar's X-Ray upgrade is an example of this approach -- adding ZK primitives (BN254, Poseidon) at the protocol level so that application developers can build configurable privacy without compromising the transparency of the base chain.
 
 **Transition:** We keep talking about different privacy protocols for different use cases. Let's demonstrate with some concrete examples. 
 
@@ -78,23 +78,22 @@ With that said, the base layer should provide a rich set of building blocks for 
 
 ## Private Payments (~3 min)
 
-Privacy on payments isn't monolithic either. There are two distinct families of protocols:
+We're going to focus on Private Payments. There's interesting stuff happening in private defi but these are still a ways out.
+
+The two main families of private payment protocols that we see are confidential tokens and privacy pools 
 
 ### Confidential Tokens
-Hide the **what** -- payment amounts and balances are concealed. But the sender and receiver are still visible on-chain. You know who's transacting, you just can't see how much.
 
-**Use case:** An institution making payments where the counterparty relationship is public but the amounts are sensitive (treasury operations, supplier payments, payroll).
+Hide the **what** -- payment amounts and balances are concealed. But the sender and receiver are still visible on-chain. You know who's transacting, you just can't see how much. This is great for when counterparty relationships are known - for example with payroll, people know I'm employed by SDF but my salary is private. 
+
+There are a bunch of different implementations of this. Stellar is part of the confidential token association and we're working with OpenZeppelin on an implementation. Narrower privacy guarantees but the tech is fairly scalable and it's a bit easier for compliance.
 
 ### Privacy Pools
-Hide the **who** -- funds are mixed so that sender identity is obscured. This provides anonymity, not just confidentiality.
+Payment protocols that also hide the **who** -- funds are mixed so that sender and receivers identities are hidden. This provides anonymity, not just confidentiality.
 
-**Use case:** Consumer payments where the individual shouldn't be identifiable.
+Much stronger privacy guarantees but they inherently mix funds, which means legitimate funds can be commingled with illicit funds - which there are ways to tackle.
 
-**The tradeoff:** Privacy pools inherently mix funds, which means legitimate funds can be commingled with illicit funds. This is the core tension that compliance tooling needs to address.
-
-These aren't competing approaches. They're different tools for different points on the spectrum.
-
-**Key point:** Confidentiality (hide amounts) and anonymity (hide identity) are separate properties. Different use cases need different combinations.
+**Key point:** This demonstrates different privacy guarantees, and the question is how do we build administrative controls to enable compliance with these solutions and others.   
 
 ---
 

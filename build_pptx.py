@@ -302,10 +302,24 @@ def add_bullets_slide(prs, title, bullets, notes="", animate=True):
         bp.alignment = PP_ALIGN.LEFT
         bullet_shapes.append(bx)
 
-    # Add appear-on-click animations
+    # Add appear-on-click animations and build list to hide shapes initially
     if animate:
         for i, shape in enumerate(bullet_shapes):
             add_appear_animation(slide, shape, i)
+
+        # Add bldLst to timing node so shapes start hidden
+        sld = slide.element
+        timing_node = sld.find(qn('p:timing'))
+        if timing_node is not None:
+            bld_lst = timing_node.makeelement(qn('p:bldLst'), {})
+            timing_node.append(bld_lst)
+            for shape in bullet_shapes:
+                bld_p = bld_lst.makeelement(qn('p:bldP'), {
+                    'spid': str(shape.shape_id),
+                    'grpId': '0',
+                    'animBg': '1',
+                })
+                bld_lst.append(bld_p)
 
     if notes:
         slide.notes_slide.notes_text_frame.text = notes

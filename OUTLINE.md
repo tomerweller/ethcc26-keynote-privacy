@@ -6,7 +6,7 @@
 
 ---
 
-## Why Privacy? (~2 min)
+## Why Privacy? (~1.5 min)
 
 If you're in this room you're probably already sold on privacy. But just to level set:
 
@@ -20,7 +20,7 @@ When we talk to financial institutions, they make it clear: not having a way to 
 
 ---
 
-## The Privacy Mistake (~3 min)
+## The Privacy Mistake (~1.5 min)
 
 Yeah, we've been working on privacy for a while but with a strong focus on cypherpunk values -- complete financial freedom.
 
@@ -32,7 +32,7 @@ For these institutions privacy means something different -- it means managing vi
 
 ---
 
-## Privacy is a Spectrum (~3 min)
+## Privacy is a Spectrum (~1.5 min)
 
 Privacy is not binary. It's a spectrum with an enormous number of permutations:
 
@@ -46,7 +46,7 @@ The real problem is that we've been treating privacy as a single feature when it
 
 ---
 
-## Privacy Dead Ends (~3 min)
+## Privacy Dead Ends (~2 min)
 
 When we started looking at privacy for Stellar, we realized that most privacy solutions end up in one of two failure modes, or "dead ends". 
 
@@ -60,7 +60,7 @@ I've been in crypto almost 9 years and it's very depressing - as soon as you thi
 
 ---
 
-## Transparency First (~3 min)
+## Transparency First (~2 min)
 
 The answer is simple: a clear architectural separation.
 
@@ -76,7 +76,7 @@ With that said, our base layers should provide a rich set of building blocks for
 
 ---
 
-## Private Payments (~3 min)
+## Private Payments (~2 min)
 
 We're going to focus on Private Payments. There's interesting stuff happening in private defi but these are still a ways out.
 
@@ -115,7 +115,7 @@ At Stellar, we've been working with various builders in the space to define a co
 
 ---
 
-## Privacy That Doesn't Break the Chain (~2 min)
+## Privacy That Doesn't Break the Chain (~1 min)
 
 So to wrap up:
 

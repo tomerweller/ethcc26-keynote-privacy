@@ -93,27 +93,25 @@ Payment protocols that also hide the **who** -- funds are mixed so that sender a
 
 Much stronger privacy guarantees but they inherently mix funds, which means legitimate funds can be commingled with illicit funds - which there are ways to tackle.
 
-**Key point:** This demonstrates different privacy guarantees, and the question is how do we build administrative controls to enable compliance with these solutions and others.   
+**Transition:** This demonstrates different privacy guarantees, and the question is how do we build administrative controls to enable compliance with these solutions and others.   
 
 ---
 
 ## Privacy Compliance* Menu (~3 min)
 
-*The asterisk is deliberate. Regulators haven't defined what compliance looks like for on-chain privacy yet. These are the administrative controls we believe are necessary -- an approximation built proactively, before the rules are written.*
+At Stellar, we've been working with various builders in the space to define a compliance menu of opt-in administrative controls. The asterisk is deliberate. First of all I'm not a lawyer, and also regulators haven't defined what compliance looks like for on-chain privacy yet. These are the administrative controls we're starting to see as requirements, this is not a comprehensive list and the idea is to have these as configurable opt-in. 
 
-The tools available to tune privacy to compliance requirements:
+- **Selective Disclosure (View Keys):** The user chooses to reveal specific transaction details to specific parties. This allows the user to show a source of funds on demand. This is a very powerful primitive that has existed for a while, but unfortunately we haven't seen great products built around it yet.
 
-- **Selective Disclosure (View Keys):** The user chooses to reveal specific transaction details to specific parties. A regulator or auditor can see inside the "private booth" -- but only when the participant opens the window.
+- **Non-Selective Disclosure (Auditor Keys):** A third party authority (e.g., an issuer or a pool operator) holds a key that can view all transactions within a scope. This means that if a law enforcement agency has a subpoena they have an actual door to knock on.
 
-- **Non-Selective Disclosure (Auditor Keys):** A designated authority (e.g., an issuer or regulator) holds a key that can view all transactions within a scope. The user doesn't choose -- the visibility is built into the system.
+- **Association Sets** An allow list controlled by a pool operator - it ensures that all funds mixed come from approved addresses and reduces the risk of commingling with illicit funds.
 
-- **Association Sets / Non-Association Sets:** Define who can transact privately together. An association set is a closed group -- a private booth at a restaurant. Outside the set, transactions are transparent. This bounds the privacy perimeter.
+- **Forced Transparent Withdrawals:** Addresses an issue with association sets: what happens if an account gets revoked? They're forced to withdraw transparently -- no hiding behind the pool on the way out. 0xBow calls this rage quit and we're starting to see more of these.
 
-- **Forced Transparent Withdrawals:** When assets leave a private context, the withdrawal is fully transparent. You can operate privately within the set, but exiting into the public chain is visible.
+- **Clawback:** And finally, yes - clawback. If clawbacks are triggering for you then you are in the wrong room and you are not ready for what's coming next. Tokenization is at full speed and regulated assets often require clawback capabilities. If we want to see RWA issuers have first class support for privacy on blockchains - they need clawback capabilities. 
 
-- **Clawback:** Yes, clawback. This is controversial in crypto, and deliberately so. In regulated finance, the ability to reverse or freeze transactions is not optional -- it's a requirement. For privacy protocols to serve institutions, they need to support administrative actions like clawback, even if that challenges crypto's core ethos. Ignoring this doesn't make it go away. It just means institutions won't come.
-
-**Key point:** These are dials, not switches. Different combinations serve different jurisdictions, use cases, and risk profiles. The menu lets you compose the compliance posture you need.
+**Transition:** These are dials, not switches. Different combinations serve different jurisdictions, use cases, and risk profiles. The menu lets you compose the compliance posture you need.
 
 ---
 

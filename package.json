@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/tomerweller/ethcc26-keynote-privacy#readme",
   "dependencies": {
-    "@marp-team/marp-cli": "^4.3.1"
+    "@marp-team/marp-cli": "^4.3.1",
+    "reveal.js": "^6.0.0"
   }
 }

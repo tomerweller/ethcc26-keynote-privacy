@@ -115,7 +115,7 @@ style: |
 
 # Privacy That Doesn't Break the Chain
 
-## Tomer Weller · EthCC
+## Tomer Weller · Stellar.org
 
 <!--
 Hi, I'm Tomer Weller, CPO at the Stellar Development Foundation. I've been in crypto for almost 9 years and for the last couple of years, privacy has been my main focus. This talk is about what we've learned in discussions with institutions about privacy.
@@ -230,11 +230,11 @@ Transition: This demonstrates different privacy guarantees, and the question is 
 
 # Privacy Compliance* Menu
 
-- Selective Disclosure (View Keys)
-- Non-Selective Disclosure (Auditor Keys)
-- Association Sets
-- Forced Transparent Withdrawals
-- Clawback
+- **Selective Disclosure (View Keys)**
+- **Non-Selective Disclosure (Auditor Keys)**
+- **Association Sets**
+- **Forced Transparent Withdrawals**
+- **Clawback**
 
 <!--
 At Stellar, we've been working with various builders in the space to define a compliance menu of opt-in administrative controls. The asterisk is deliberate. First of all I'm not a lawyer, and also regulators haven't defined what compliance looks like for on-chain privacy yet. These are the administrative controls we're starting to see as requirements, this is not a comprehensive list and the idea is to have these as configurable opt-in.

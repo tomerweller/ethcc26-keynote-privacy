@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover
+theme: default
 paginate: false
 backgroundColor: #0F0F0F
 color: #F6F7F8
@@ -21,7 +21,24 @@ style: |
     font-family: 'Inter', 'Helvetica Neue', sans-serif;
     padding: 80px 100px;
     background-color: var(--stellar-black);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5em;
+  }
+
+  ul li {
+    margin-bottom: 0.6em;
+    padding-left: 0;
+  }
+
+  ul li::before {
+    content: "";
   }
 
   h1 {
@@ -156,6 +173,9 @@ Transition: This is what I call "Privacy Dead Ends".
 
 # Privacy Dead Ends
 
+- **All-or-Nothing** -- full transparency or full privacy, nothing in between
+- **Permissioned Chains** -- private by default, but you lose everything blockchain offers
+
 <!--
 When we started looking at privacy for Stellar, we realized that most privacy solutions end up in one of two failure modes, or "dead ends".
 
@@ -169,6 +189,9 @@ Transition: So how do you avoid these privacy dead-ends?
 ---
 
 # Transparency First
+
+- **Open, transparent base layer** -- maximally auditable source of truth
+- **Privacy protocols built on top** -- configurable, opt-in, different tech for different needs
 
 <!--
 The answer is simple: a clear architectural separation.
@@ -188,6 +211,9 @@ Transition: We keep talking about different privacy protocols for different use 
 
 # Private Payments
 
+- **Confidential Tokens** -- hide the *what* (amounts, balances)
+- **Privacy Pools** -- hide the *who* (sender, receiver)
+
 <!--
 We're going to focus on Private Payments. There's interesting stuff happening in private defi but these are still a ways out.
 
@@ -203,6 +229,12 @@ Transition: This demonstrates different privacy guarantees, and the question is 
 ---
 
 # Privacy Compliance* Menu
+
+- Selective Disclosure (View Keys)
+- Non-Selective Disclosure (Auditor Keys)
+- Association Sets
+- Forced Transparent Withdrawals
+- Clawback
 
 <!--
 At Stellar, we've been working with various builders in the space to define a compliance menu of opt-in administrative controls. The asterisk is deliberate. First of all I'm not a lawyer, and also regulators haven't defined what compliance looks like for on-chain privacy yet. These are the administrative controls we're starting to see as requirements, this is not a comprehensive list and the idea is to have these as configurable opt-in.

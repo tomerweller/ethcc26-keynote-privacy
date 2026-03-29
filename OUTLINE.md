@@ -28,9 +28,7 @@ And that's awesome. But for the next wave of adoption we need institutions -- we
 
 For these institutions privacy means something different -- it means managing visibility in a way that allows them to stay competitive but also in compliance.
 
-Transition: The problem is that we've built absolute privacy. But what institutions are telling us is that privacy is a spectrum.
-
-**Key point:** The mistake wasn't building privacy. It was treating privacy as an ideology instead of a practical requirement.
+Transition: The mistake is that we've built absolute privacy. But what institutions are telling us is that privacy is a spectrum.
 
 ---
 
@@ -38,7 +36,7 @@ Transition: The problem is that we've built absolute privacy. But what instituti
 
 Privacy is not binary. It's a spectrum with an enormous number of permutations:
 
-- **Jurisdictions vary.** What's required in the EU is different from the US, Singapore, or Brazil. There is no single compliance framework.
+- **Jurisdictions vary.** What's required in the EU is different from the US, Singapore, or Brazil. There is no single compliance framework. Concrete example: the same €900 USDC transfer from a VASP to a personal wallet requires zero identity data in the US (Travel Rule kicks in at $3,000+), but full originator/beneficiary identity disclosure in the EU (Travel Rule applies to any amount since December 2024). A single global smart contract can't serve both with the same logic.
 - **Use cases vary.** Payroll needs different privacy than trading, which needs different privacy than lending, which needs different privacy than remittances.
 - **Technology varies.** ZK proofs, FHE, MPC, TEEs -- each has different tradeoffs in performance, trust assumptions, and what they can actually hide.
 

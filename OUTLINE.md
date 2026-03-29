@@ -119,12 +119,14 @@ At Stellar, we've been working with various builders in the space to define a co
 
 So to wrap up:
 
-We've been building privacy with cypherpunk values and that's great -- but it's not enough. Institutions need privacy too, and for them it's not about hiding from the world. It's about managing visibility.
+We've been building privacy with ideology first and that's great -- but it's not enough. Institutions need privacy too, and for them it's more nuanced.
 
 Privacy is a spectrum. Different jurisdictions, different use cases, different tech. There's no single answer and that's okay -- that's actually the point.
 
-The approach is transparency first -- keep the base layer open, build configurable privacy on top. Confidential tokens, privacy pools, a compliance menu of administrative controls. Dials, not switches.
+The right approach is transparency first -- keep the base layer open, build configurable privacy on top. Confidential tokens, privacy pools, a compliance menu of administrative controls. Dials, not switches.
 
-The regulators haven't written the rules yet. But we don't need to wait. We can build the toolkit now -- so that when they do, we're ready.
+All the building blocks are in place - we have a non-hostile administration in the US, we have institutions that are at the table and see the value in blockchain, and the tech is ready.
 
-This is privacy that doesn't break the chain.
+There are no excuses - we're building privacy that doesn't break the chain. If that's interesting to you -- come build with us on Stellar.
+
+Thanks. 

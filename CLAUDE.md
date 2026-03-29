@@ -14,10 +14,11 @@ Mid-technical developers and institutions. They understand blockchain basics and
 - It's not institutions getting it wrong -- it's crypto builders ignoring what institutions actually need
 
 ## Process
-- Commit after every change
 - Outline lives in `OUTLINE.md`
 - Research sources in `research/`
 - Distilled summary in `research/DISTILLED.md`
+- Brand guidelines summary in `style/BRAND_SUMMARY.md`
+- Slide deck in `slides.md` (Marp format)
 
 ## Workflow
 1. Develop outline collaboratively

@@ -57,7 +57,7 @@ The real problem is that we've been treating privacy as a single feature when it
 When we started looking at privacy for Stellar, we realized that most privacy solutions today end up in one of two failure modes, or "dead ends". 
 
 ### All-or-Nothing
-Privacy solutions that have two modes: full transparency or full privacy, nothing in between. This can take the shape of a smart contract pool, an L2 or an appchain - but the premise is the same: all or nothing. Unfortunately, this doesn't leave room and nuance for regulated financial institutions to engage with.
+Privacy solutions that have two modes: full transparency or full privacy, nothing in between. This can take the shape of a smart contract pool, an L2 or an appchain - but the premise is the same: all or nothing. Unfortunately, this doesn't leave room for nuance for regulated financial institutions to engage with.
 
 ### Permissioned Chains
 I've been in crypto almost 9 years and it's very depressing - as soon as you think that the concept of permissioned chains is dead, they come back to life. Recently they've come back to life on the pretense of being private. Of course they're private - they're a fucking database on your computer, bro. Just to be clear: institutions are looking for open-participation networks - they see the value of interoperability, composability and verifiability. Permissioned chains are a dead end.
@@ -117,7 +117,7 @@ At Stellar, we've been working with various builders in the space to define a co
 
 - **Non-Selective Disclosure (Auditor Keys):** A third party authority (e.g., an issuer or a pool operator) holds a key that can view all transactions within a scope. This means that if a law enforcement agency has a subpoena they have an actual door to knock on.
 
-- **Association Sets** have been pioneered with Privacy Pools, these are allow lists controlled by a pool operator - it ensures that all funds mixed come from approved addresses and reduces the risk of commingling with illicit funds.
+- **Association Sets** have been pioneered with Privacy Pools, these are allow lists controlled by a pool operator - they ensure that all funds mixed come from approved addresses and reduces the risk of commingling with illicit funds.
 
 - **Forced Transparent Withdrawals:** These address an issue with association sets: what happens if an account gets revoked? They're forced to withdraw transparently with no privacy guarantees. 0xBow calls this rage quit and we're starting to see more of these.
 

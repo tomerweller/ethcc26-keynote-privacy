@@ -8,13 +8,13 @@
 
 ## Why Privacy? (~2 min)
 
-Blockchain is the only financial system where every transaction is visible to everyone. Your paycheck is private. Your bank balance is private. Your supplier payments are private. But the moment any of that moves on-chain, it's public.
+If you're in this room you're probably already sold on privacy. But just to level set:
 
-For individuals, this means anyone with a block explorer can reconstruct your financial life. For institutions, it's worse -- deposit volumes, counterparty relationships, trading strategies, payroll. This isn't abstract. This is competitive intelligence, exposed to every competitor, in real time.
+Blockchain is the only financial system where every transaction is visible to everyone. Your paycheck is private. Your bank balance is private. But the moment any of that moves on-chain, it's public.
 
-"Unless you can protect my information, I can't do anything on the blockchain." That's not a cypherpunk talking. That's a bank.
+For individuals, this means anyone with a block explorer can reconstruct your financial life. For institutions, it's worse -- volumes, relationships, trading strategies, payroll. This is competitive intelligence, exposed to every competitor, in real time.
 
-Privacy on blockchain isn't a feature request. It's a prerequisite for the next phase of adoption.
+When we talk to financial institutions, they make it clear: not having a way to manage visibility is a non-starter.
 
 ---
 

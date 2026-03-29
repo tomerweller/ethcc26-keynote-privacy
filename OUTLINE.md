@@ -56,22 +56,23 @@ Privacy solutions that have two modes: full transparency or full privacy, nothin
 ### Permissioned Chains
 I've been in crypto almost 9 years and it's very depressing - as soon as you think that the concept of permissioned chains is dead, they come back to life. Recently they've come back to life on the pretense of being private. Of course they're private - they're a fucking database on your computer, bro. Just to be clear: institutions are looking for open-participation networks - they see the value of interoperability, composability and verifiability. Permissioned chains are a dead end.
 
-**Key point:** So how do you avoid these privacy dead-ends? 
+**Transition:** So how do you avoid these privacy dead-ends? 
 
 ---
 
 ## Transparency First (~3 min)
 
-The answer is a clear architectural separation:
+The answer is simple: a clear architectural separation.
 
-- **An open, transparent base layer.** The L1 stays public. Anyone can verify. The chain's integrity is preserved.
-- **Privacy protocols built on top.** Opt-in, configurable at the application layer. You choose what to reveal and what to hide, based on your jurisdiction, your use case, and your risk profile.
+- **An open, transparent base layer** a maximally auditable source of truth. This is the default - this is the primary issuance platform. Anyone can verify - interoperability is trivial.
 
-This is not privacy baked into the protocol. It's privacy as a feature that applications can adopt and configure. The base layer doesn't need to change. Openness is the default. Privacy is available when needed.
+- **Privacy protocols built on top.** different protocols for different requirements, configurable and opt-in.   
 
-Stellar's X-Ray upgrade is an example of this approach -- adding ZK primitives (BN254, Poseidon) at the protocol level so that application developers can build configurable privacy without compromising the transparency of the base chain.
+Why transparency first? This might come as a surprise given that this is a talk about privacy but transparency is a core value proposition of blockchains. The fact that an executive at an asset manager company can go on a block explorer and see the total supply of an asset and its distribution - that is a feature - not a bug - they love that shit. 
 
-**Key point:** Open by default, private when needed. The chain stays transparent. Privacy lives at the application layer.
+With that said, the base layer should provide a rich set of building blocks for privacy. Stellar's X-Ray upgrade is an example of this approach -- adding ZK primitives (BN254, Poseidon) at the protocol level so that application developers can build configurable privacy without compromising the transparency of the base chain.
+
+**Transition:** We keep talking about different privacy protocols for different use cases. Let's demonstrate with some concrete examples. 
 
 ---
 

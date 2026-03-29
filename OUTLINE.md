@@ -16,15 +16,19 @@ For individuals, this means anyone with a block explorer can reconstruct your fi
 
 When we talk to financial institutions, they make it clear: not having a way to manage visibility is a non-starter.
 
+Transition: Easy -- we've been working on privacy for 10 years, no? Not exactly.
+
 ---
 
 ## The Privacy Mistake (~3 min)
 
-The crypto ecosystem built privacy with cypherpunk values -- the goal was to hide everything from everyone. Mixers, shielded chains, fully private L1s. The ideology: transparency is the enemy, privacy is absolute.
+Yeah, we've been working on privacy for a while but with a strong focus on cypherpunk values -- complete financial freedom.
 
-But this framing was never going to work for the next wave of adoption. Institutions don't want to hide from regulators -- they want to hide from competitors while remaining accountable. The cypherpunk privacy model is a non-starter for regulated entities.
+And that's awesome. But for the next wave of adoption we need institutions -- we need them to feel comfortable bringing their assets on chain, making payroll, accepting merchant payments, engaging with blockchain in a meaningful way.
 
-We built privacy tools for an audience that doesn't include the people holding the next trillion dollars of capital.
+For these institutions privacy means something different -- it means managing visibility in a way that allows them to stay competitive but also in compliance.
+
+Transition: The problem is that we've built absolute privacy. But what institutions are telling us is that privacy is a spectrum.
 
 **Key point:** The mistake wasn't building privacy. It was treating privacy as an ideology instead of a practical requirement.
 

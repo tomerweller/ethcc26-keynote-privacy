@@ -367,7 +367,11 @@ Transition: The mistake is that we've built absolute privacy. But what instituti
 )
 
 # --- Slide 4: Privacy is a Spectrum ---
-add_title_only_slide(prs, "Privacy is a Spectrum",
+add_bullets_slide(prs, "Privacy is a Spectrum", [
+    ("Jurisdictions vary", "US ≠ EU ≠ Singapore ≠ Brazil"),
+    ("Use cases vary", "payroll ≠ trading ≠ lending ≠ remittances"),
+    ("Technology varies", "ZK, FHE, MPC, TEEs"),
+],
     notes="""Privacy is not binary. It's a spectrum with an enormous number of permutations:
 
 Jurisdictions vary. A regulated asset issued in the US adheres to a completely different regulatory regime than a similar one issued in Germany.

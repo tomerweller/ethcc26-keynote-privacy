@@ -456,8 +456,12 @@ Transition: This menu is a starting point to let you compose the type of complia
 )
 
 # --- Slide 9: Closing ---
-add_title_slide(prs,
-    "Privacy That Doesn't\nBreak the Chain",
+add_bullets_slide(prs, "Privacy That Doesn't\nBreak the Chain", [
+    ("Ideology first isn't enough", "institutions need nuanced privacy"),
+    ("Privacy is a spectrum", "jurisdictions, use cases, tech all vary"),
+    ("Transparency first", "open base layer, building blocks, privacy on top"),
+    ("The time is now", "non-hostile regulation, institutions at the table, tech is ready"),
+],
     notes="""So to wrap up:
 
 In crypto, we've been building privacy with ideology first and that's great -- but it's not enough. Institutions need privacy too, and for them it's more nuanced.

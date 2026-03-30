@@ -135,10 +135,10 @@ In crypto, we've been building privacy with ideology first and that's great -- b
 
 Privacy is a spectrum. Different jurisdictions, different use cases, different tech. There's no single answer and that's okay.
 
-The right approach is transparency first -- keep the base layer open, provide the low-level building blocks and build configurable privacy on top: things like confidential tokens and privacy pools, administrative controls as needed.  
+The right approach is transparency first -- keep the base layer open, provide the low-level building blocks and build configurable privacy on top: things like confidential tokens and privacy pools, administrative controls as needed.
 
 All the building blocks are in place - we have a non-hostile administration in the US, we have institutions that are at the table and see the value in blockchain, and the tech is ready.
 
 There are no excuses - we're building privacy that doesn't break the chain. If that's interesting to you -- come build with us on Stellar.
 
-Thanks. 
+Thanks.
